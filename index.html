@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Тествое задание</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="main.css" />
+	</head>
+	<body>
+		<table class='container'>
+			<tr>
+				<td>
+					<input type="button" value="Добавить строчку" class="summator__new_line" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<table class="summator">
+						<thead>
+							<tr>
+								<td class="summator__title line__cell__col_1">Сумма, р.</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr class="summator__line line">
+								<td class="line__cell__col_1 line__cell">
+									<span class="line__amount">11 782</span>
+									<input type="text" class="line__editor" />
+								</td>
+								<td class="line__cell__col_2 line__cell">
+									<input type="button" value="Сохранить" class="line__save" />
+									<a href="#" class="line__delete">Удалить</a>
+								</td>
+							</tr>
+							<tr class="summator__line line">
+								<td class="line__cell__col_1 line__cell">
+									<span class="line__amount">3 678</span>
+									<input type="text" class="line__editor" />
+								</td>
+								<td class="line__cell__col_2 line__cell">
+									<input type="button" value="Сохранить" class="line__save" />
+									<a href="#" class="line__delete">Удалить</a>
+								</td>
+							</tr>
+							<tr class="summator__line line">
+								<td class="line__cell__col_1 line__cell">
+									<span class="line__amount">678</span>
+									<input type="text" class="line__editor" />
+								</td>
+								<td class="line__cell__col_2 line__cell">
+									<input type="button" value="Сохранить" class="line__save" />
+									<a href="#" class="line__delete">Удалить</a>
+								</td>
+							</tr>
+							<tr class="summator__line line">
+								<td class="line__cell__col_1 line__cell">
+									<span class="line__amount">-5 423</span>
+									<input type="text" class="line__editor" />
+								</td>
+								<td class="line__cell__col_2 line__cell">
+									<input type="button" value="Сохранить" class="line__save" />
+									<a href="#" class="line__delete">Удалить</a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td class="container__total">
+					<div class="summator__total">
+						<span class="summator__total__text">Итого:</span>
+						<span class="summator__total__amount">10 715</span>
+					</div>
+				</td>
+			</tr>
+		</table>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>

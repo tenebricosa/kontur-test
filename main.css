@@ -1,0 +1,111 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	font-size: 13px;
+}
+
+.summator__new_line {
+	margin: 25px 0 0 30px;
+}
+
+.summator {
+	margin: 10px 67px;
+	border-collapse: collapse;
+}
+
+.line__cell {
+	/*border: 1px solid #000;*/
+	height: 2.5em;
+}
+
+.summator__title {
+	font-weight: bold;
+}
+
+.line__editor {
+	display: none;
+	text-align: right;
+	padding-right: 5px;
+	width: 71px;
+}
+
+.line__save {
+	display: none;
+}
+
+.line__delete {
+	display: none;
+	text-decoration: none;
+	border-bottom: 1px dashed blue;
+}
+
+.line__delete:visited {
+	color: blue;
+}
+
+.summa_num {
+	margin-left: 62px;
+}
+
+
+.line__amount {
+	margin-right: 5px;
+}
+
+.line:hover {
+	background-color: rgb(179,224,244);
+}
+
+.line:hover .line__delete {
+	display: inline;
+}
+
+.line__cell__col_2 {
+	padding-left: 1em;
+	padding-right: 1em;
+	width: 50px;
+}
+
+.line__cell__col_1 {
+	text-align: right;
+	width: 80px;
+}
+.summator__line__edit:hover {
+	background-color: inherit;
+}
+
+.summator__line__edit .line__save, 
+.summator__line__edit .line__editor {
+	display: inline-block;
+}
+
+.summator__line__edit .line__amount, 
+.summator__line__edit .line__delete {
+	display: none !important;
+}
+
+.summator__total {
+	margin-left: 38px;
+	padding: 5px 10px;
+	width: 95px;
+	border: 1px solid transparent;
+}
+
+.summator__total__amount {
+	display: inline-block;
+	float: right;
+	font-weight: bold;
+}
+
+.summator__total__fixed {
+	position: fixed;
+	bottom: 0;
+	border-color: #000;
+	border-bottom: none;
+	background-color: #fff;
+}
+
+.container__total {
+	height: 27px;
+}
